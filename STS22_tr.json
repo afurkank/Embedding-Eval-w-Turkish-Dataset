@@ -1,0 +1,542 @@
+{   
+    "average-word-embeddings-komninos":
+    {
+        "cos_sim": {
+        "pearson": 0.2935881948847343,
+        "spearman": 0.4737820170232698
+        },
+        "euclidean": {
+        "pearson": 0.3868427105479041,
+        "spearman": 0.4544124940872031
+        },
+        "manhattan": {
+        "pearson": 0.3887837304983135,
+        "spearman": 0.45579090529397753
+        }
+    },
+    "text-embedding-ada-002": 
+    {
+        "cos_sim": {
+        "pearson": 0.563986094925504, 
+        "spearman": 0.64498311459473
+        }, 
+        "euclidean": {
+        "pearson": 0.6084112755525339, 
+        "spearman": 0.64498311459473
+        }, 
+        "manhattan": {
+        "pearson": 0.6068273748824454, 
+        "spearman": 0.6441179836604591
+        }
+    },
+    "all-distilroberta-v1":
+    {
+        "cos_sim": {
+        "pearson": -0.03724695079847758,
+        "spearman": 0.07716335393181299
+        },
+        "euclidean": {
+        "pearson": 0.012408327087343244,
+        "spearman": 0.07716335393181299
+        },
+        "manhattan": {
+        "pearson": 0.018607454100630923,
+        "spearman": 0.07774384163409229
+        }
+    },
+    "all-MiniLM-L6-v2":
+    {
+        "cos_sim": {
+        "pearson": 0.2059790235870267,
+        "spearman": 0.3369451080773859
+        },
+        "euclidean": {
+        "pearson": 0.2696485396317325,
+        "spearman": 0.3369451080773859
+        },
+        "manhattan": {
+        "pearson": 0.2753028935570718,
+        "spearman": 0.3374254435313719
+        }
+    },
+    "all-mpnet-base-v2":
+    {
+        "cos_sim": {
+        "pearson": 0.2458901109877268,
+        "spearman": 0.2934691488725117
+        },
+        "euclidean": {
+        "pearson": 0.2779756307724227,
+        "spearman": 0.2934691488725117
+        },
+        "manhattan": {
+        "pearson": 0.2737389325370635,
+        "spearman": 0.28975231444736144
+        }
+    },
+    "bert-base-nli-mean-tokens":
+    {
+        "cos_sim": {
+        "pearson": -0.08999860245040169,
+        "spearman": 0.08847528681800004
+        },
+        "euclidean": {
+        "pearson": -0.03155366686950946,
+        "spearman": 0.08029640617283229
+        },
+        "manhattan": {
+        "pearson": -0.03747002847618404,
+        "spearman": 0.07555762347726745
+        }
+    },
+    "distilbert-base-nli-stsb-mean-tokens":
+    {
+        "cos_sim": {
+        "pearson": 0.08928447749236271,
+        "spearman": 0.18569478736692904
+        },
+        "euclidean": {
+        "pearson": 0.12307810170073956,
+        "spearman": 0.18992424316821252
+        },
+        "manhattan": {
+        "pearson": 0.11728655571729718,
+        "spearman": 0.18340775806544052
+        }
+    },
+    "distiluse-base-multilingual-cased":
+    {
+        "cos_sim": {
+        "pearson": 0.5059069861003653,
+        "spearman": 0.5407437321160808
+        },
+        "euclidean": {
+        "pearson": 0.5531327615968504,
+        "spearman": 0.55862881519289
+        },
+        "manhattan": {
+        "pearson": 0.5576874075631879,
+        "spearman": 0.5638920793992543
+        }
+    },
+    "distiluse-base-multilingual-cased-v1":
+    {
+        "cos_sim": {
+        "pearson": 0.4670419864714609,
+        "spearman": 0.5010913485483538
+        },
+        "euclidean": {
+        "pearson": 0.49376500776626003,
+        "spearman": 0.5172270617618809
+        },
+        "manhattan": {
+        "pearson": 0.49507022867655476,
+        "spearman": 0.5142040452147103
+        }
+    },
+    "LaBSE":
+    {
+        "cos_sim": {
+        "pearson": 0.5066303660037992,
+        "spearman": 0.5814951548295534
+        },
+        "euclidean": {
+        "pearson": 0.5433732779682892,
+        "spearman": 0.5814951548295534
+        },
+        "manhattan": {
+        "pearson": 0.5345350346242833,
+        "spearman": 0.5780590102581725
+        }
+    },
+    "msmarco-distilbert-base-dot-prod-v3":
+    {
+        "cos_sim": {
+        "pearson": 0.04546529729614933,
+        "spearman": 0.22899482124091952
+        },
+        "euclidean": {
+        "pearson": 0.12397170106799402,
+        "spearman": 0.21936043851364626
+        },
+        "manhattan": {
+        "pearson": 0.12322889728803582,
+        "spearman": 0.21824295026953083
+        }
+    },
+    "multi-qa-MiniLM-L6-cos-v1":
+    {
+        "cos_sim": {
+        "pearson": 0.18727896296370544,
+        "spearman": 0.27177498587870297
+        },
+        "euclidean": {
+        "pearson": 0.2362452605896102,
+        "spearman": 0.27177498587870297
+        },
+        "manhattan": {
+        "pearson": 0.2497796156862153,
+        "spearman": 0.2756604977746632
+        }
+    },
+    "multi-qa-mpnet-base-cos-v1":
+    {
+        "cos_sim": {
+        "pearson": 0.251522050039628,
+        "spearman": 0.370766258767506
+        },
+        "euclidean": {
+        "pearson": 0.3071887436919769,
+        "spearman": 0.370766258767506
+        },
+        "manhattan": {
+        "pearson": 0.2991143018179287,
+        "spearman": 0.3685556614449782
+        }
+    },
+    "multi-qa-mpnet-base-dot-v1":
+    {
+        "cos_sim": {
+        "pearson": 0.3072168004487369,
+        "spearman": 0.40761437938301887
+        },
+        "euclidean": {
+        "pearson": 0.3559704188755185,
+        "spearman": 0.40916476254245493
+        },
+        "manhattan": {
+        "pearson": 0.35054723733027443,
+        "spearman": 0.40747996452346724
+        }
+    },
+    "nli-mpnet-base-v2":
+    {
+        "cos_sim": {
+        "pearson": 0.11729815891560014,
+        "spearman": 0.17955123760977573
+        },
+        "euclidean": {
+        "pearson": 0.11893355678447393,
+        "spearman": 0.17543906536241477
+        },
+        "manhattan": {
+        "pearson": 0.1416929603481558,
+        "spearman": 0.1685002276862477
+        }
+    },
+    "paraphrase-MiniLM-L3-v2":
+    {
+        "cos_sim": {
+        "pearson": 0.13340203609875395,
+        "spearman": 0.19214011166170314
+        },
+        "euclidean": {
+        "pearson": 0.13679934936049434,
+        "spearman": 0.2447101585701627
+        },
+        "manhattan": {
+        "pearson": 0.151719529722191,
+        "spearman": 0.24602663351812412
+        }
+    },
+    "paraphrase-MiniLM-L6-v2":
+    {
+        "cos_sim": {
+        "pearson": 0.12136433854680849,
+        "spearman": 0.16846860066047087
+        },
+        "euclidean": {
+        "pearson": 0.17417857465155612,
+        "spearman": 0.1968275004403806
+        },
+        "manhattan": {
+        "pearson": 0.18997684452726532,
+        "spearman": 0.20102071694129475
+        }
+    },
+    "paraphrase-mpnet-base-v2":
+    {
+        "cos_sim": {
+        "pearson": 0.3201473097463362,
+        "spearman": 0.40273920513879136
+        },
+        "euclidean": {
+        "pearson": 0.3355330198958103,
+        "spearman": 0.40381584180794494
+        },
+        "manhattan": {
+        "pearson": 0.3332643700011384,
+        "spearman": 0.4010583604980258
+        }
+    },
+    "paraphrase-multilingual-MiniLM-L12-v2":
+    {
+        "cos_sim": {
+        "pearson": 0.5156604272019244,
+        "spearman": 0.5338892331753187
+        },
+        "euclidean": {
+        "pearson": 0.5099106602090626,
+        "spearman": 0.5495426342457489
+        },
+        "manhattan": {
+        "pearson": 0.5295049769966722,
+        "spearman": 0.5585345930119299
+        }
+    },
+    "paraphrase-multilingual-mpnet-base-v2":
+    {
+        "cos_sim": {
+        "pearson": 0.5369530387082406,
+        "spearman": 0.5629781901335774
+        },
+        "euclidean": {
+        "pearson": 0.5381374679058799,
+        "spearman": 0.5814398075344439
+        },
+        "manhattan": {
+        "pearson": 0.5406146713669115,
+        "spearman": 0.5785294622666032
+        }
+    },
+    "paraphrase-xlm-r-multilingual-v1":
+    {
+        "cos_sim": {
+        "pearson": 0.49677217130708073,
+        "spearman": 0.5187148497661337
+        },
+        "euclidean": {
+        "pearson": 0.47012145017799173,
+        "spearman": 0.5142732293335972
+        },
+        "manhattan": {
+        "pearson": 0.4668860335638064,
+        "spearman": 0.514599383036921
+        }
+    },
+    "sentence-t5-base":
+    {
+        "cos_sim": {
+        "pearson": 0.27410976339878546,
+        "spearman": 0.40448725720933265
+        },
+        "euclidean": {
+        "pearson": 0.3374236064972278,
+        "spearman": 0.40448725720933265
+        },
+        "manhattan": {
+        "pearson": 0.3390231940000138,
+        "spearman": 0.4019149257794821
+        }
+    },
+    "universal-sentence-encoder-4":
+    {
+        "cos_sim": {
+        "pearson": 0.26783046485668505,
+        "spearman": 0.38995859224309176
+        },
+        "euclidean": {
+        "pearson": 0.3407019310926102,
+        "spearman": 0.38995859224309176
+        },
+        "manhattan": {
+        "pearson": 0.31173106351208735,
+        "spearman": 0.3760736690306838
+        }
+    },
+    "universal-sentence-encoder-large-5":
+    {
+        "cos_sim": {
+        "pearson": 0.1894381464197054,
+        "spearman": 0.23062558975753839
+        },
+        "euclidean": {
+        "pearson": 0.22132263626116905,
+        "spearman": 0.23062558975753839
+        },
+        "manhattan": {
+        "pearson": 0.22860257163087774,
+        "spearman": 0.2344452120164635
+        }
+    },
+    "xlm-r-100langs-bert-base-nli-stsb-mean-tokens":
+    {
+        "cos_sim": {
+        "pearson": 0.4521038272900675,
+        "spearman": 0.4805680444046589
+        },
+        "euclidean": {
+        "pearson": 0.4993573106703292,
+        "spearman": 0.5192116576293784
+        },
+        "manhattan": {
+        "pearson": 0.508986328319436,
+        "spearman": 0.5248722363470644
+        }
+    },
+    "msmarco-bert-base-dot-v5":
+    {
+        "cos_sim": {
+        "pearson": 0.3057238673320503,
+        "spearman": 0.4126305574505015
+        },
+        "euclidean": {
+        "pearson": 0.35146813988065606,
+        "spearman": 0.4120961924941468
+        },
+        "manhattan": {
+        "pearson": 0.3562127713348511,
+        "spearman": 0.41643766067838994
+        }
+    },
+    "distilbert-base-nli-mean-tokens":
+    {
+        "cos_sim": {
+        "pearson": 0.06801815500841084,
+        "spearman": 0.15515625839389796
+        },
+        "euclidean": {
+        "pearson": 0.10405558955729603,
+        "spearman": 0.15389974301563847
+        },
+        "manhattan": {
+        "pearson": 0.10568385714815977,
+        "spearman": 0.15680745269799776
+        }
+    },
+    "distiluse-base-multilingual-cased-v2":
+    {
+        "cos_sim": {
+        "pearson": 0.5059069861003653,
+        "spearman": 0.5407437321160808
+        },
+        "euclidean": {
+        "pearson": 0.5531327615968504,
+        "spearman": 0.55862881519289
+        },
+        "manhattan": {
+        "pearson": 0.5576874075631879,
+        "spearman": 0.5638920793992543
+        }
+    },
+    "msmarco-distilbert-base-v4":
+    {
+        "cos_sim": {
+        "pearson": 0.06966313610462802,
+        "spearman": 0.1354862250498077
+        },
+        "euclidean": {
+        "pearson": 0.11889270929424622,
+        "spearman": 0.15412903895252067
+        },
+        "manhattan": {
+        "pearson": 0.11951288024885559,
+        "spearman": 0.1515837222738545
+        }
+    },
+    "stsb-xlm-r-multilingual":
+    {
+        "cos_sim": {
+        "pearson": 0.4521038272900675,
+        "spearman": 0.4805680444046589
+        },
+        "euclidean": {
+        "pearson": 0.4993573106703292,
+        "spearman": 0.5192116576293784
+        },
+        "manhattan": {
+        "pearson": 0.508986328319436,
+        "spearman": 0.5248722363470644
+        }
+    },
+    "allenai-specter":
+    {
+        "cos_sim": {
+        "pearson": 0.30106050137736284,
+        "spearman": 0.31734623554129354
+        },
+        "euclidean": {
+        "pearson": 0.3214693390359916,
+        "spearman": 0.31781932313520567
+        },
+        "manhattan": {
+        "pearson": 0.32173620004339526,
+        "spearman": 0.3163651388458408
+        }
+    },
+    "msmarco-distilbert-base-tas-b":
+    {
+        "cos_sim": {
+        "pearson": 0.22438361119354872,
+        "spearman": 0.3494641391140561
+        },
+        "euclidean": {
+        "pearson": 0.2843528045957418,
+        "spearman": 0.34881380839651965
+        },
+        "manhattan": {
+        "pearson": 0.2879599773324804,
+        "spearman": 0.3505783328763198
+        }
+    },
+    "universal-sentence-encoder-multilingual-large-3":
+    {
+        "cos_sim": {
+        "pearson": 0.3681090151301011,
+        "spearman": 0.42479707892903384
+        },
+        "euclidean": {
+        "pearson": 0.40963153384273643,
+        "spearman": 0.42479707892903384
+        },
+        "manhattan": {
+        "pearson": 0.4085001979151188,
+        "spearman": 0.42218521371696227
+        }
+    },
+    "universal-sentence-encoder-multilingual-3":
+    {
+        "cos_sim": {
+        "pearson": 0.5956748719530833,
+        "spearman": 0.6342279491414896
+        },
+        "euclidean": {
+        "pearson": 0.6238730506002852,
+        "spearman": 0.6342279491414896
+        },
+        "manhattan": {
+        "pearson": 0.6041510688474312,
+        "spearman": 0.619750678092136
+        }
+    },
+    "all-MiniLM-L12-v2":
+    {
+        "cos_sim": {
+        "pearson": 0.1749470011298601,
+        "spearman": 0.21600665598855934
+        },
+        "euclidean": {
+        "pearson": 0.19949872167318305,
+        "spearman": 0.21600665598855934
+        },
+        "manhattan": {
+        "pearson": 0.20562730332435591,
+        "spearman": 0.21548415116687095
+        }
+    },
+    "msmarco-MiniLM-L-12-v3":
+    {
+        "cos_sim": {
+        "pearson": 0.2774763096073677,
+        "spearman": 0.39373802182342543
+        },
+        "euclidean": {
+        "pearson": 0.24107927011455485,
+        "spearman": 0.39036315461448734
+        },
+        "manhattan": {
+        "pearson": 0.28382137492477644,
+        "spearman": 0.3909805405135063
+        }
+    }
+}
